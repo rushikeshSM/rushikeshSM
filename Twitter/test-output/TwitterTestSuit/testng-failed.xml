@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [TwitterTestSuit]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="OperaTest(failed)">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="SuitPack.Test2">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="quit"/>
+          <include name="afterClass"/>
+          <include name="verifyPrivacyPolicyLink"/>
+          <include name="classObject"/>
+          <include name="closeed"/>
+          <include name="verifyTermsOfServiceLink"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- SuitPack.Test2 -->
+    </classes>
+  </test> <!-- OperaTest(failed) -->
+</suite> <!-- Failed suite [TwitterTestSuit] -->

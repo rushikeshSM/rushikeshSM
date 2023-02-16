@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-15T15:21:43 IST" name="Suite" finished-at="2023-02-15T15:22:11 IST" duration-ms="27248">
+    <groups>
+    </groups>
+    <test started-at="2023-02-15T15:21:43 IST" name="ChromeTest" finished-at="2023-02-15T15:22:11 IST" duration-ms="27248">
+      <class name="SuitPack.Test4">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:SuitPack.Test4@5c30a9b0]" started-at="2023-02-15T15:21:43 IST" name="openBrowser" finished-at="2023-02-15T15:21:46 IST" duration-ms="2314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="classObject()[pri:0, instance:SuitPack.Test4@5c30a9b0]" started-at="2023-02-15T15:21:46 IST" name="classObject" finished-at="2023-02-15T15:21:46 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classObject -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:SuitPack.Test4@5c30a9b0]" started-at="2023-02-15T15:21:46 IST" name="openUrl" finished-at="2023-02-15T15:22:01 IST" duration-ms="15299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="verifyTermsOfServiceLink()[pri:0, instance:SuitPack.Test4@5c30a9b0]" started-at="2023-02-15T15:22:01 IST" name="verifyTermsOfServiceLink" finished-at="2023-02-15T15:22:07 IST" duration-ms="5823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermsOfServiceLink -->
+        <test-method is-config="true" signature="closeed(org.testng.ITestResult)[pri:0, instance:SuitPack.Test4@5c30a9b0]" started-at="2023-02-15T15:22:07 IST" name="closeed" finished-at="2023-02-15T15:22:08 IST" duration-ms="1402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTermsOfServiceLink status=SUCCESS method=Test4.verifyTermsOfServiceLink()[pri:0, instance:SuitPack.Test4@5c30a9b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeed -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:SuitPack.Test4@5c30a9b0]" started-at="2023-02-15T15:22:08 IST" name="afterClass" finished-at="2023-02-15T15:22:08 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SuitPack.Test4@5c30a9b0]" started-at="2023-02-15T15:22:08 IST" name="quit" finished-at="2023-02-15T15:22:11 IST" duration-ms="2238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SuitPack.Test4 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

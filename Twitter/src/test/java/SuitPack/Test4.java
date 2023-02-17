@@ -1,5 +1,5 @@
 package SuitPack;
-
+//rushikesh
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -68,7 +68,7 @@ public class Test4 extends Browser{
 	}
 	@BeforeMethod
 	public void openUrl() throws InterruptedException    {
-		softAssert = new SoftAssert();
+		
 		driver.get("https://twitter.com/");
 		Thread.sleep(5000);	
 		twitterMainPage.clickOnsignInButton();

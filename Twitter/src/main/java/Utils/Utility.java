@@ -52,35 +52,4 @@ public class Utility {
 	
 }
     
-    
-    
-    
-    
-    
-    
-    
-//    public static String getDataFromExcel(String path, String sheet, int row, int cell) {
-//        try {
-//            FileInputStream file = new FileInputStream(path);
-//            String data = WorkbookFactory.create(file).getSheet(sheet).getRow(row).getCell(cell).getStringCellValue();
-//            return data;
-//        } catch (IOException e) {
-//            throw new NullPointerException("Failed to read data from Excel");
-//        }
-//    }
-
-   
-    
-    
-    
-    
-//    public static String getDataFromExcel(String filePath, String sheet, int row, int cell) {
-//        try {
-//            FileInputStream file = new FileInputStream(filePath);
-//            return WorkbookFactory.create(file).getSheet(sheet).getRow(row).getCell(cell).getStringCellValue();
-//        } catch (Exception e) {
-//            System.err.println("Failed to fetch data from Excel: " + e.getMessage());
-//            return "";
-//        }
-//    }
 }

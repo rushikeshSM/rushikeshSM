@@ -65,10 +65,11 @@ public class Test4 extends Browser{
 		 signInStep1PopUp = new SignInStep1PopUp(driver);
 		 signInStep2PopUp = new SignInStep2PopUp(driver);
 		 signInStep3PopUp = new SignInStep3PopUp(driver);
+		 softAssert = new SoftAssert();
 	}
 	@BeforeMethod
 	public void openUrl() throws InterruptedException    {
-		softAssert = new SoftAssert();
+		
 		driver.get("https://twitter.com/");
 		Thread.sleep(5000);	
 		twitterMainPage.clickOnsignInButton();
@@ -79,8 +80,8 @@ public class Test4 extends Browser{
 	public void verifyTermsOfServiceLink() throws  Exception,NullPointerException   {
 		TestID = "103";
 		signInStep1PopUp.enterName(Utility.getDataFromExcel("C:\\automation.selenium\\Book2.xlsx","Sheet1", 1, 0));
-		String user = Utility.getDataFromExcel("C:\\automation.selenium\\Book2.xlsx","Sheet1", 1, 1);
-		signInStep1PopUp.enterPhone(user);
+		
+		signInStep1PopUp.enterPhone(Utility.getDataFromExcel("C:\\automation.selenium\\Book2.xlsx","Sheet1", 1, 1));
 		signInStep1PopUp.selectMonth();
 		signInStep1PopUp.selectDay();
 		signInStep1PopUp.selectYear();
